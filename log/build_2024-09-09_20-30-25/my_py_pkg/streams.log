@@ -1,0 +1,67 @@
+[1.352s] Invoking command in '/home/asserhanafy/ros1_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/asserhanafy/ros1_ws/build/my_py_pkg/build
+[1.744s] running develop
+[1.752s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.752s] !!
+[1.753s] 
+[1.753s]         ********************************************************************************
+[1.753s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.753s]         Instead, use pypa/build, pypa/installer or other
+[1.753s]         standards-based tools.
+[1.753s] 
+[1.753s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.753s]         ********************************************************************************
+[1.753s] 
+[1.753s] !!
+[1.753s]   easy_install.initialize_options(self)
+[2.046s] Removing /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[2.078s] Invoked command in '/home/asserhanafy/ros1_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/asserhanafy/ros1_ws/build/my_py_pkg/build
+[2.079s] Invoking command in '/home/asserhanafy/ros1_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/asserhanafy/ros1_ws/build/my_py_pkg/build install --record /home/asserhanafy/ros1_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[2.426s] running egg_info
+[2.452s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.452s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.453s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.453s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.453s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.504s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.505s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.505s] running build
+[2.505s] running build_py
+[2.505s] copying my_py_pkg/my_first_node.py -> /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.505s] copying my_py_pkg/pose_subscriber.py -> /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.505s] copying my_py_pkg/draw_circle.py -> /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.505s] copying my_py_pkg/turtle_controller.py -> /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.506s] copying my_py_pkg/ultrasonic_subscriber.py -> /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.506s] copying my_py_pkg/ultrasonic_publisher.py -> /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.506s] running install
+[2.515s] running install_lib
+[2.542s] creating /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.542s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/pytest.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.542s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.542s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.542s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/pose_subscriber.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.543s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/draw_circle.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.543s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.543s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/ultrasonic_subscriber.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.543s] copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/ultrasonic_publisher.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.543s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/pytest.py to pytest.cpython-312.pyc
+[2.543s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[2.544s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[2.544s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/pose_subscriber.py to pose_subscriber.cpython-312.pyc
+[2.545s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/draw_circle.py to draw_circle.cpython-312.pyc
+[2.545s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-312.pyc
+[2.546s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/ultrasonic_subscriber.py to ultrasonic_subscriber.cpython-312.pyc
+[2.546s] byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/ultrasonic_publisher.py to ultrasonic_publisher.cpython-312.pyc
+[2.546s] running install_data
+[2.547s] copying resource/my_py_pkg -> /home/asserhanafy/ros1_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.547s] copying package.xml -> /home/asserhanafy/ros1_ws/install/my_py_pkg/share/my_py_pkg
+[2.547s] running install_egg_info
+[2.575s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.576s] running install_scripts
+[2.749s] Installing draw_circle script to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[2.750s] Installing pose_subscriber script to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[2.750s] Installing test_node script to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[2.750s] Installing turtle_controller script to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[2.750s] Installing ultrasonic_publisher script to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[2.750s] Installing ultrasonic_subscriber script to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[2.751s] writing list of installed files to '/home/asserhanafy/ros1_ws/build/my_py_pkg/install.log'
+[2.786s] Invoked command in '/home/asserhanafy/ros1_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/asserhanafy/ros1_ws/build/my_py_pkg/build install --record /home/asserhanafy/ros1_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

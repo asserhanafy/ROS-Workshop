@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000679] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001386] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099467] (-) TimerEvent: {}
+[0.199996] (-) TimerEvent: {}
+[0.300518] (-) TimerEvent: {}
+[0.400996] (-) TimerEvent: {}
+[0.501474] (-) TimerEvent: {}
+[0.601976] (-) TimerEvent: {}
+[0.702460] (-) TimerEvent: {}
+[0.802972] (-) TimerEvent: {}
+[0.903523] (-) TimerEvent: {}
+[1.004017] (-) TimerEvent: {}
+[1.104552] (-) TimerEvent: {}
+[1.205054] (-) TimerEvent: {}
+[1.305587] (-) TimerEvent: {}
+[1.406095] (-) TimerEvent: {}
+[1.506604] (-) TimerEvent: {}
+[1.607109] (-) TimerEvent: {}
+[1.707617] (-) TimerEvent: {}
+[1.808120] (-) TimerEvent: {}
+[1.908628] (-) TimerEvent: {}
+[2.009131] (-) TimerEvent: {}
+[2.109648] (-) TimerEvent: {}
+[2.210153] (-) TimerEvent: {}
+[2.310654] (-) TimerEvent: {}
+[2.411165] (-) TimerEvent: {}
+[2.511672] (-) TimerEvent: {}
+[2.612178] (-) TimerEvent: {}
+[2.712714] (-) TimerEvent: {}
+[2.813221] (-) TimerEvent: {}
+[2.913753] (-) TimerEvent: {}
+[3.014273] (-) TimerEvent: {}
+[3.076116] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/asserhanafy/ros1_ws/build/my_py_pkg/build', 'install', '--record', '/home/asserhanafy/ros1_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/asserhanafy/ros1_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asserhanafy', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/asserhanafy', 'OLDPWD': '/home/asserhanafy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2022', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/asserhanafy/ros1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'asserhanafy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asserhanafy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asserhanafy-G7-7500:@/tmp/.ICE-unix/1967,unix/asserhanafy-G7-7500:/tmp/.ICE-unix/1967', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dd869190_ee31_44e0_b20b_4f82af520c8d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.205', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asserhanafy/ros1_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asserhanafy/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.114451] (-) TimerEvent: {}
+[3.214954] (-) TimerEvent: {}
+[3.315466] (-) TimerEvent: {}
+[3.416012] (-) TimerEvent: {}
+[3.516552] (-) TimerEvent: {}
+[3.617067] (-) TimerEvent: {}
+[3.717583] (-) TimerEvent: {}
+[3.818099] (-) TimerEvent: {}
+[3.918646] (-) TimerEvent: {}
+[4.019157] (-) TimerEvent: {}
+[4.119671] (-) TimerEvent: {}
+[4.147646] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.219843] (-) TimerEvent: {}
+[4.228432] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[4.229401] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[4.230189] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[4.230786] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[4.231335] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[4.320021] (-) TimerEvent: {}
+[4.395730] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.398300] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.399012] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[4.399446] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.399771] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/pytest.py -> /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[4.400321] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[4.420197] (-) TimerEvent: {}
+[4.424913] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.507282] (my_py_pkg) StdoutLine: {'line': b'copying /home/asserhanafy/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/pytest.py -> /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[4.509365] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/pytest.py to pytest.cpython-312.pyc\n'}
+[4.510662] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.511323] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.520378] (-) TimerEvent: {}
+[4.597820] (my_py_pkg) StdoutLine: {'line': b"removing '/home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.598714] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[4.601721] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.620570] (-) TimerEvent: {}
+[4.721057] (-) TimerEvent: {}
+[4.821580] (-) TimerEvent: {}
+[4.922104] (-) TimerEvent: {}
+[5.022645] (-) TimerEvent: {}
+[5.123165] (-) TimerEvent: {}
+[5.127703] (my_py_pkg) StdoutLine: {'line': b'Installing pytest script to /home/asserhanafy/ros1_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.128802] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/asserhanafy/ros1_ws/build/my_py_pkg/install.log'\n"}
+[5.203705] (my_py_pkg) CommandEnded: {'returncode': 0}
+[5.225902] (-) TimerEvent: {}
+[5.237609] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[5.239827] (-) EventReactorShutdown: {}
