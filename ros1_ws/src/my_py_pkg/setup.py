@@ -25,7 +25,9 @@ setup(
             "pose_subscriber = my_py_pkg.pose_subscriber:main",
             "turtle_controller = my_py_pkg.turtle_controller:main",
             "ultrasonic_publisher = my_py_pkg.ultrasonic_publisher:main",
-            "ultrasonic_subscriber = my_py_pkg.ultrasonic_subscriber:main"
+            "ultrasonic_subscriber = my_py_pkg.ultrasonic_subscriber:main",
+            "RPS = my_py_pkg.main:main",
+            "turtle_catch = my_py_pkg.turtle_catch:main"
         ],
     },
 )
