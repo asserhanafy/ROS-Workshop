@@ -1,7 +1,9 @@
 [console_scripts]
 RPS = my_py_pkg.main:main
+client = my_py_pkg.client:main
 draw_circle = my_py_pkg.draw_circle:main
 pose_subscriber = my_py_pkg.pose_subscriber:main
+server = my_py_pkg.server:main
 test_node = my_py_pkg.my_first_node:main
 turtle_catch = my_py_pkg.turtle_catch:main
 turtle_controller = my_py_pkg.turtle_controller:main

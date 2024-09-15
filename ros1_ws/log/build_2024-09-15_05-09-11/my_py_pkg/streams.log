@@ -1,0 +1,76 @@
+[0.637s] Invoking command in '/home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build
+[0.875s] running develop
+[0.875s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.875s] !!
+[0.875s] 
+[0.875s]         ********************************************************************************
+[0.875s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.875s]         Instead, use pypa/build, pypa/installer or other
+[0.875s]         standards-based tools.
+[0.875s] 
+[0.875s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.875s]         ********************************************************************************
+[0.875s] 
+[0.876s] !!
+[0.876s]   easy_install.initialize_options(self)
+[1.044s] Removing /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.063s] Invoked command in '/home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build
+[1.064s] Invoking command in '/home/asserhanafy/linux-tasks/ros1_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build install --record /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.280s] running egg_info
+[1.295s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.296s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.296s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.296s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.296s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.331s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.332s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.332s] running build
+[1.332s] running build_py
+[1.332s] copying my_py_pkg/server.py -> /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.333s] copying my_py_pkg/turtle_catch.py -> /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.333s] copying my_py_pkg/client.py -> /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.333s] running install
+[1.339s] running install_lib
+[1.355s] creating /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/server.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/game.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/main.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/pose_subscriber.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/draw_circle.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/ultrasonic_subscriber.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.356s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_catch.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.357s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/ultrasonic_publisher.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.357s] copying /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build/lib/my_py_pkg/client.py -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.357s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/server.py to server.cpython-312.pyc
+[1.357s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[1.358s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/game.py to game.cpython-312.pyc
+[1.358s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/main.py to main.cpython-312.pyc
+[1.359s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.359s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/pose_subscriber.py to pose_subscriber.cpython-312.pyc
+[1.359s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/draw_circle.py to draw_circle.cpython-312.pyc
+[1.360s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-312.pyc
+[1.360s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/ultrasonic_subscriber.py to ultrasonic_subscriber.cpython-312.pyc
+[1.361s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/turtle_catch.py to turtle_catch.cpython-312.pyc
+[1.362s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/ultrasonic_publisher.py to ultrasonic_publisher.cpython-312.pyc
+[1.362s] byte-compiling /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/client.py to client.cpython-312.pyc
+[1.362s] running install_data
+[1.362s] copying resource/my_py_pkg -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.362s] copying package.xml -> /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/share/my_py_pkg
+[1.363s] running install_egg_info
+[1.379s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.380s] running install_scripts
+[1.486s] Installing RPS script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing client script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing draw_circle script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing pose_subscriber script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing server script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing test_node script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing turtle_catch script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing turtle_controller script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing ultrasonic_publisher script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.487s] Installing ultrasonic_subscriber script to /home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/my_py_pkg
+[1.488s] writing list of installed files to '/home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/install.log'
+[1.506s] Invoked command in '/home/asserhanafy/linux-tasks/ros1_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asserhanafy/linux-tasks/ros1_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/build install --record /home/asserhanafy/linux-tasks/ros1_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

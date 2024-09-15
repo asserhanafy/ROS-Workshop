@@ -27,7 +27,9 @@ setup(
             "ultrasonic_publisher = my_py_pkg.ultrasonic_publisher:main",
             "ultrasonic_subscriber = my_py_pkg.ultrasonic_subscriber:main",
             "RPS = my_py_pkg.main:main",
-            "turtle_catch = my_py_pkg.turtle_catch:main"
+            "turtle_catch = my_py_pkg.turtle_catch:main",
+            "client = my_py_pkg.client:main",
+            "server = my_py_pkg.server:main"
         ],
     },
 )

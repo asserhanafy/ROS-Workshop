@@ -51,8 +51,6 @@ class main_turtle(Node):
         except Exception as e:
             self.get_logger().error("Service call failed:  %r" % (e,))
     
-        
-
     def kill_turtle(self, name):
         client = self.create_client(Kill, "/kill")
         while not client.wait_for_service(1.0):
@@ -70,7 +68,6 @@ class main_turtle(Node):
         except Exception as e:
             self.get_logger().error("Service call failed:  %r" % (e,))
         
-
 def main(args = None):
     rclpy.init(args = args)
     node = main_turtle()
